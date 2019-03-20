@@ -34,11 +34,12 @@ toPWorks.addEventListener('click', function(){
     smoothScroll('.section3', 1000)
 });
 
-var toContact = document.querySelector('.contactButton')
-toContact.addEventListener('click', function(){
+var toRes = document.querySelector('.resButton')
+toRes.addEventListener('click', function(){
     smoothScroll('.section4', 1000)
 });
 
-
-
-
+var toContact = document.querySelector('.contactButton')
+toContact.addEventListener('click', function(){
+    smoothScroll('.section5', 1000)
+});

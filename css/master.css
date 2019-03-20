@@ -51,16 +51,35 @@ p{
 }
 
 /* Styling icons */
-.icons{
+.linkedin-icon{
     font-size: 40px;
-
 }
 
-.icons a {
+.linkedin-icon a {
     font-size: 40px;
     color: white;
 
 }
+
+.linkedin-icon:hover{
+  filter: invert(.5);
+}
+
+.git-icon{
+    font-size: 40px;
+}
+
+.git-icon a {
+    font-size: 40px;
+    color: white;
+
+}
+
+.git-icon:hover{
+  filter: invert(.5);
+}
+
+
 
 .line-break {
     width: 450px;
@@ -90,6 +109,32 @@ p{
     margin-top: 100px;
     text-align: center;
 }
+
+.resume{
+      width: 500px;
+    height: 450px;
+    background: rgba(0,0,0,.4);
+    padding: 80px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.resFile{
+  font-size: 40px;
+}
+
+.resFile a {
+    font-size: 100px;
+    color: white;
+
+}
+
+.resFile:hover{
+  filter: invert(.5);
+}
+
 
 .contact-me{
     width: 500px;
