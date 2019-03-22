@@ -23,7 +23,6 @@ function smoothScroll(target, duration){
     requestAnimationFrame(animation);
 }
 
-
 var toAbout = document.querySelector('.aboutButton')
 toAbout.addEventListener('click', function(){
     smoothScroll('.section2', 1000)

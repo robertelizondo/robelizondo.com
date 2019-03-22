@@ -2,7 +2,7 @@
 
 
 html {
-  background: url(../images/compPic.jpeg) no-repeat center center fixed;
+  background: url(../images/compBG.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,13 +21,13 @@ body{
 
 /* Styling box */
 .prof-box{
-    width: 500px;
-    height: 450px;
+    width: 45%;
+    height: 30%;
     background: rgba(0,0,0,.4);
-    padding: 40px;
+    padding: 10%;
     color: white;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -82,7 +82,7 @@ p{
 
 
 .line-break {
-    width: 450px;
+    width: 95%;
     border-top: 1px solid white;
     margin: 0 auto;
 }
@@ -91,7 +91,7 @@ p{
     width: 500px;
     height: 450px;
     background: rgba(0,0,0,.4);
-    padding: 80px;
+    padding: 40px;
     color: white;
     margin: 0 auto;
     margin-top: 100px;
@@ -103,7 +103,7 @@ p{
     width: 500px;
     height: 450px;
     background: rgba(0,0,0,.4);
-    padding: 80px;
+    padding: 40px;
     color: white;
     margin: 0 auto;
     margin-top: 100px;
@@ -111,10 +111,10 @@ p{
 }
 
 .resume{
-      width: 500px;
+    width: 500px;
     height: 450px;
     background: rgba(0,0,0,.4);
-    padding: 80px;
+    padding: 40px;
     color: white;
     margin: 0 auto;
     margin-top: 100px;
@@ -140,7 +140,7 @@ p{
     width: 500px;
     height: 450px;
     background: rgba(0,0,0,.4);
-    padding: 80px;
+    padding: 40px;
     color: white;
     margin: 0 auto;
     margin-top: 100px;
@@ -150,13 +150,16 @@ p{
 
 /* Styling Nav Bar */
 .container{
-  width: 80%;
-  margin: 0 auto;
+  width: 95%;
+  margin-left: 1%;
 }
 
 header{
-  background: #6eb56f;
-  opacity: .75;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #bae0ba;
+  opacity: .999999;
 
 }
 
@@ -168,7 +171,7 @@ header::after{
 
 .logo{
   float: left;
-  padding: 10px 0;
+  padding: 1%;
 }
 
 nav{
@@ -183,14 +186,14 @@ nav ul{
 
 nav li {
   display: inline-block;
+  margin-right: 0px;
   margin-left: 70px;
   padding-top: 23px;
-
   position: relative;
 }
 
 nav a{
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -218,3 +221,9 @@ nav a:hover::before {
 }
 
 
+.sticky{
+  position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
