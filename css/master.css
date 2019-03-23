@@ -155,8 +155,39 @@ p{
 }
 
 
+/* Styling icons */
+.email-icon{
+    font-size: 80px;
+}
+
+.email-icon a {
+    font-size: 80px;
+    color: white;
+
+}
+
+.email-icon:hover{
+  filter: invert(.5);
+}
+
+.phone-icon{
+    font-size: 80px;
+}
+
+.phone-icon a {
+    font-size: 80px;
+    color: white;
+
+}
+
+.phone-icon:hover{
+  filter: invert(.5);
+}
+
+
 /* Styling Nav Bar */
 .container{
+  margin: 0 auto;
   width: 95%;
   margin-left: 1%;
 }
@@ -177,7 +208,7 @@ header::after{
 }
 
 .logo{
-  width: auto%;
+  width: auto;
   height: auto;
   float: left;
   padding: 1%;
@@ -197,12 +228,13 @@ nav li {
   display: inline-block;
   margin-right: 0px;
   margin-left: 70px;
-  padding-top: 23px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   position: relative;
 }
 
 nav a{
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
