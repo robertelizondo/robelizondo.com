@@ -23,11 +23,12 @@ body{
 .prof-box{
     width: 45%;
     height: 30%;
-    background: rgba(0,0,0,.4);
-    padding: 10%;
+    background: rgba(86, 224, 186,.18);
+    padding: 2%;
     color: white;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
@@ -42,21 +43,23 @@ body{
 h1{
     font-weight: 100;
     letter-spacing: 6;
-    font-size: 40px;
+    font-size: 50px;
 }
 
+
 p{
+    font-size: 20px;
     font-weight: 200;
     letter-spacing: 1;
 }
 
 /* Styling icons */
 .linkedin-icon{
-    font-size: 40px;
+    font-size: 80px;
 }
 
 .linkedin-icon a {
-    font-size: 40px;
+    font-size: 80px;
     color: white;
 
 }
@@ -66,11 +69,11 @@ p{
 }
 
 .git-icon{
-    font-size: 40px;
+    font-size: 80px;
 }
 
 .git-icon a {
-    font-size: 40px;
+    font-size: 80px;
     color: white;
 
 }
@@ -88,36 +91,39 @@ p{
 }
 
 .about-me{
-    width: 500px;
-    height: 450px;
-    background: rgba(0,0,0,.4);
-    padding: 40px;
+    width: 45%;
+    height: 30%;
+    background: rgba(86, 224, 186,.18);
+    padding: 2%;
     color: white;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
 
 .p-works{
-    width: 500px;
-    height: 450px;
-    background: rgba(0,0,0,.4);
-    padding: 40px;
+    width: 45%;
+    height: 30%;
+    background: rgba(86, 224, 186,.18);
+    padding: 2%;
     color: white;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
 .resume{
-    width: 500px;
-    height: 450px;
-    background: rgba(0,0,0,.4);
-    padding: 40px;
+    width: 45%;
+    height: 30%;
+    background: rgba(86, 224, 186,.18);
+    padding: 2%;
     color: white;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
@@ -137,13 +143,14 @@ p{
 
 
 .contact-me{
-    width: 500px;
-    height: 450px;
-    background: rgba(0,0,0,.4);
-    padding: 40px;
+    width: 45%;
+    height: 30%;
+    background: rgba(86, 224, 186,.18);
+    padding: 2%;
     color: white;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
@@ -170,6 +177,8 @@ header::after{
 }
 
 .logo{
+  width: auto%;
+  height: auto;
   float: left;
   padding: 1%;
 }
@@ -193,6 +202,7 @@ nav li {
 }
 
 nav a{
+  font-size: 25px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
