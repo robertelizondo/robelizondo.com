@@ -2,7 +2,7 @@
 
 
 html {
-  background: url(../images/compBG.jpeg) no-repeat center center fixed;
+  background: url(../images/pic5.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -242,14 +242,14 @@ nav a{
 }
 
 nav a:hover{
-  color: #444;
+  color: #500000;
 }
 
 nav a::before{
   content: '';
   display: block;
   height: 8px;
-  background-color: #444;
+  background-color: #500000;
 
   position: absolute;
   top: 0;
@@ -260,12 +260,4 @@ nav a::before{
 
 nav a:hover::before {
   width: 100%;
-}
-
-
-.sticky{
-  position: fixed;
- top: 0;
- left: 0;
- width: 100%;
 }
