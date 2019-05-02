@@ -2,7 +2,7 @@
 
 
 html {
-  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background: url(../images/pic4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,7 +23,7 @@ body{
 .prof-box{
     width: 45%;
     height: 30%;
-    background: rgba(86, 224, 186,.18);
+    background: rgba(192, 192, 192, .5);
     padding: 2%;
     color: white;
     margin: 0 auto;
@@ -60,7 +60,7 @@ p{
 
 .linkedin-icon a {
     font-size: 60px;
-    color: white;
+    color: #bae0ba;
 
 }
 
@@ -74,7 +74,7 @@ p{
 
 .git-icon a {
     font-size: 60px;
-    color: white;
+    color: #bae0ba;
 
 }
 
@@ -83,17 +83,34 @@ p{
 }
 
 
-
 .line-break {
     width: 95%;
     border-top: 1px solid white;
     margin: 0 auto;
 }
 
+
+.abt_me_title {
+    color: #bae0ba;
+}
+
+.p_title {
+    color: #bae0ba;
+}
+
+.r_title {
+      color: #bae0ba;
+}
+
+.c_title {
+    color: #bae0ba;
+}
+
+
 .about-me{
     width: 45%;
     height: 30%;
-    background: rgba(86, 224, 186,.18);
+    background: rgba(192, 192, 192, .5);
     padding: 2%;
     color: white;
     margin: 0 auto;
@@ -106,7 +123,7 @@ p{
 .p-works{
     width: 45%;
     height: 30%;
-    background: rgba(86, 224, 186,.18);
+    background: rgba(192, 192, 192, .5);
     padding: 2%;
     color: white;
     margin: 0 auto;
@@ -115,10 +132,24 @@ p{
     text-align: center;
 }
 
+.ag_scan_button a {
+    color: #bae0ba;
+    font-weight: bold;
+}
+
+.sfr_button a {
+    color: #bae0ba;
+    font-weight: bold;
+}
+
+.p_works_git {
+  color: #bae0ba;
+}
+
 .resume{
     width: 45%;
     height: 30%;
-    background: rgba(86, 224, 186,.18);
+    background: rgba(192, 192, 192, .5);
     padding: 2%;
     color: white;
     margin: 0 auto;
@@ -133,7 +164,7 @@ p{
 
 .resFile a {
     font-size: 100px;
-    color: white;
+    color: #bae0ba;
 
 }
 
@@ -145,7 +176,7 @@ p{
 .contact-me{
     width: 45%;
     height: 30%;
-    background: rgba(86, 224, 186,.18);
+    background: rgba(192, 192, 192, .5);
     padding: 2%;
     color: white;
     margin: 0 auto;
@@ -162,7 +193,7 @@ p{
 
 .email-icon a {
     font-size: 80px;
-    color: white;
+    color: #bae0ba;
 
 }
 
@@ -176,7 +207,7 @@ p{
 
 .phone-icon a {
     font-size: 80px;
-    color: white;
+    color: #bae0ba;
 
 }
 
