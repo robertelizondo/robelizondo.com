@@ -30,6 +30,7 @@ body{
     margin-top: 5.75%;
     margin-bottom: 10%;
     text-align: center;
+    border-radius: 20%;
 }
 
 /* Styling pic */
@@ -106,7 +107,6 @@ p{
     color: #bae0ba;
 }
 
-
 .about-me{
     width: 45%;
     height: 30%;
@@ -117,6 +117,7 @@ p{
     margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
+    border-radius: 20%;
 }
 
 
@@ -130,6 +131,7 @@ p{
     margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
+    border-radius: 20%;
 }
 
 .ag_scan_button a {
@@ -156,6 +158,7 @@ p{
     margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
+    border-radius: 20%;
 }
 
 .resFile{
@@ -183,6 +186,7 @@ p{
     margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
+    border-radius: 20%;
 }
 
 
