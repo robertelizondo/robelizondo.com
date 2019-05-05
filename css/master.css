@@ -225,6 +225,11 @@ p{
   margin: 0 auto;
   width: 95%;
   margin-left: 1%;
+
+  &.hover{
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+  }
 }
 
 header{
@@ -242,12 +247,6 @@ header::after{
   clear: both;
 }
 
-.logo{
-  width: auto;
-  height: auto;
-  float: left;
-  padding: 1%;
-}
 
 nav{
   float: right;
@@ -296,3 +295,7 @@ nav a::before{
 nav a:hover::before {
   width: 100%;
 }
+
+
+nav a:active{
+  }

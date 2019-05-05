@@ -4,6 +4,8 @@
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
     <title>Robert Elizndo</title>
 </head>
 <body>
@@ -11,22 +13,30 @@
     <header>
         <div class="container">
 
-            <nav>
-                <ul>
-                    <li><a class="homeButton" href="#">Home</a></li>
-                    <li><a class="aboutButton" href="#">About</a></li>
-                    <li><a class="pWorksButton" href="#">Previous Work</a></li>
-                    <li><a class="resButton" href="#">Resume</a></li>
-                    <li><a class="contactButton" href="#">Contact Me</a></li>
-
-                </ul>
-
+            <nav class = "navigation">
+        <ul>
+          <li class="nav-item active">
+            <a class="nav-link scroll" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#previousworks">Previous Works</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link scroll" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link scroll" href="#contactme">Contact Me</a>
+          </li>
+        </ul>
             </nav>
         </div>
 
     </header>
 
-<div class ="prof-box">
+<div class ="prof-box" id="top">
     <img src="images/profPic.jpg" class="prof-pic">
     <h1>Robert Elizondo</h1>
     <h3>Texas A&M Engineering | Software Developer </h3>
@@ -48,7 +58,7 @@
      </span>
 </div>
 
-    <div class="about-me">
+    <div class="about-me" id="aboutme">
     <div class="abt_me_title"><h1>About Me</h1></div>
     <p>
         I am freshman Engineering student at Texas A&M University. I have always loved to create and experiment with new things, and so this is my first go at creating a website from the ground up. I am from Dallas, Texas. I currently know Python fluently and a bit of Java and MySQL. I am learning HTML5/CSS/JavaScript which is what I used to create this website! I am still learning many of the skills necessary to become a great programmer and hope to one day start my own software company.
@@ -57,7 +67,7 @@
     </div>
 
 
-    <div class="p-works">
+    <div class="p-works" id=previousworks>
     <div class="p_title"><h1>Previous Works</h1></div>
     <p>
         I have worked on a number of software projects and mainly focus on frontend development.
@@ -68,7 +78,7 @@
     </div>
 
 
-    <div class="resume">
+    <div class="resume" id="resume">
     <div class="r_title"><h1>Resume</h1></div>
     <p>
         You can view the most recent version of my resume by pressing here:
@@ -80,7 +90,7 @@
     </div>
 
 
-    <div class="contact-me">
+    <div class="contact-me" id="contactme">
     <a class="section5" href="#"></a> <! This is where the botton is routing to /!>
     <div class="c_title"><h1>Contact Me</h1></div>
         <h2>Email: robmelizondo@gmail.com</h2>
